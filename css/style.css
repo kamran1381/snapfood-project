@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Iransas;
+    overflow-x: hidden;
+    width: 1400px !important;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.snapfood-header {
+    width: 100%;
+    min-height: calc(100vh - 10px);
+
+    background-color: #f8f8f8;
+    border-bottom-right-radius: 7.5rem;
+}
+
+.register {
+    width: auto;
+    height: 3rem;
+    background-color: rgb(255, 0, 166);
+    border: 0.09375rem solid rgb(255, 0, 166);
+}
+
+.register span {
+    font-size: 15px !important;
+    color: #fff;
+}
+
+.left-side-pizza {
+
+    background-image: url(../image/pizza.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: 165px;
+
+
+}
+
+@font-face {
+    font-family: Iransas;
+    src: url(../font/FontsFree-Net-ir_sans.ttf);
+}
+
+.title-01 h2 {
+    margin-right: 60px;
+}
+
+
+
+
+
+.hero {
+    height: 100%;
+    width: 100%;
+    font-size: 2em;
+}
+
+.hero-tagline {
+    float: left;
+}
+
+.hero-intro {
+    text-align: center;
+}
+
+.word-slider {
+    height: 1em;
+    position: relative;
+    line-height: 2em;
+    margin-top: 0 .8em;
+    overflow: hidden;
+    float: left;
+    list-style-type: none;
+}
+
+.word-slider>li {
+    text-align: center;
+    -webkit-animation: word-slider 8s ease-in-out infinite;
+    -moz-animation: word-slider 8s ease-in-out infinite;
+    -o-animation: word-slider 8s ease-in-out infinite;
+    animation: word-slider 8s ease-in-out infinite;
+    color: rgb(204, 113, 128);
+}
+
+@-webkit-keyframes word-slider {
+    0% {
+        -webkit-transform: translate3D(0, 0, 0);
+    }
+
+    33% {
+        -webkit-transform: translate3D(0, -100%, 0);
+    }
+
+    66% {
+        -webkit-transform: translate3D(0, -200%, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3D(0, -300%, 0);
+    }
+}
+
+@-moz-keyframes word-slider {
+    0% {
+        -moz-transform: translate3D(0, 0, 0);
+    }
+
+    33% {
+        -moz-transform: translate3D(0, -100%, 0);
+    }
+
+    66% {
+        -moz-transform: translate3D(0, -200%, 0);
+    }
+
+    100% {
+        -moz-transform: translate3D(0, -300%, 0);
+    }
+}
+
+@-o-keyframes word-slider {
+    0% {
+        -o-transform: translateY(0);
+    }
+
+    33% {
+        -o-transform: translateY(-100%);
+    }
+
+    66% {
+        -o-transform: translateY(-200%);
+    }
+
+    100% {
+        -o-transform: translateY(-300%);
+    }
+}
+
+@keyframes word-slider {
+    0% {
+        transform: translate3D(0, 0, 0);
+    }
+
+    33% {
+        transform: translate3D(0, -100%, 0);
+    }
+
+    66% {
+        transform: translate3D(0, -200%, 0);
+    }
+
+    100% {
+        transform: translate3D(0, -300%, 0);
+    }
+}
+
+footer {
+    width: 100%;
+    height: 5em;
+}
+
+.to-top {
+    display: block;
+    height: 50%;
+    margin: 1.25em auto;
+    text-align: center;
+    line-height: 2.5em;
+    cursor: pointer;
+}
+
+.flexbox-container-center {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+}
+
+.flexbox-item-center {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    box-flex: 0;
+}
+
+.ie9 .flexbox-container-center {
+    display: table;
+}
+
+.ie9 .flexbox-item-center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tego {
+    font-size: 12px !important;
+}
+
+form {
+    margin: 0 !important;
+
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #fafafa;
+    border-radius: 30px;
+
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #f513b1;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+::placeholder {
+    font-size: 14px;
+}
+
+
+.maxz {
+    background-image: linear-gradient(to left, rgba(240, 240, 215, 0.671), rgb(218, 214, 178));
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.maxz a {
+    margin-right: 30px;
+    color: #000;
+    font-size: 14px;
+}
+
+.food-wrapper {
+    position: relative;
+    bottom: 270px;
+    z-index: 1 !important;
+
+}
+
+
+/* ----------------------header done---------------------- */
+
+
+.title-food-cate {
+    margin-top: 40px;
+}
+
+.title-food-cate h3 {
+    font-size: 19px;
+}
+
+#item-food-cat {
+    position: relative;
+
+}
+
+
+#item-food-cat a img {
+    width: 17vw;
+    height: 19vh;
+
+}
+
+#item-food-cat a {
+    text-decoration: none;
+}
+
+.snas-01 {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    color: rgb(58, 61, 66);
+    border-radius: 5px;
+}
+
+.snas-01 p {
+    margin-top: 10px;
+     
+
+}
+
+
+.pelecan {
+    margin-right: 7px;
+    color: #FF00A6;
+    transition: 0.2s all;
+
+
+}
+
+.pelecan:hover {
+    cursor: pointer;
+    transform: translateX(10px);
+
+
+}
+
+
+
+
+/* ------------------------categoty-food done------------------------------ */
+
+
+.snapfood-app{
+    margin-top: 150px;
+    width: 100%;
+    min-height: calc(100vh - 10px);
+
+    background-color: #f8f8f8;
+    border-bottom-right-radius: 7.5rem;
+}
+
+.img-app-container{
+    position: absolute;
+    left: 6rem;
+    transform: translateY(-5%);
+}
+
+.title-app{
+    margin-top: 50px;
+}
+
+.contact-form-paragraph{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 50px;
+    color: gray;
+    line-height: 20px;
+}
+
+input[type^="number"]{
+    width: 15rem;
+   padding: 5px;
+}
+
+input[type^="button"]{
+
+    width: 5rem;
+    padding: 5px;
+    border: 0.09375rem solid rgb(255, 0, 166);
+    border-radius: 0.375rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 166);
+    background-clip: padding-box;
+    box-shadow: none;
+    font-family: IRANSansMobile;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+/* ---------------- */
+
+
+.Own-bussiness{
+    width: 100%;
+    min-height: calc(100vh - 20px);
+    background-color: #f8f8f8;
+    border-bottom-right-radius: 7.5rem;
+    border-bottom-left-radius: 7.5rem;
+    margin-top: 200px;
+
+}
+
+.img-bussines-own-container{
+    position: absolute;
+    left: 8rem;
+    transform: translateY(-5%);
+}
+
+
+.paragraph-own-bussiness{
+    margin-top: 40px;
+}
+.ownbussines-btn{
+    background-color: rgb(255, 0, 166);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.ownbussines-btn:hover{
+    color: #7d8ff1c4;
+}
+
+/* ---iran-city-----*/
+
+
+
+.Iran-city{
+    margin-top: 100px;
+}
+
+.list-of-cities ul li a{
+    color: rgb(166, 170, 173);
+    font-size: 15px !important;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+}
+
+.footer{
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    width: 100%;
+    height: 90vh;
+}
+
+
+.right-side-footer{
+    margin-top:  100px !important;
+}
+
+
+.footer-right-head{
+    margin-right: 20px;
+}
+
+
+
+.right-side-footer-paragraph h4{
+    font-size: 22px;
+    color: rgb(255, 0, 166);
+
+}
+
+.right-side-footer-paragraph P{
+    font-size: 12px;
+
+}
+
+.right-side-foot-icon button{
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 100px;
+    border: 1px solid rgb(214, 203, 203);
+}
+
+.right-side-foot-icon button i{
+    color: rgb(179, 170, 170);
+    font-size: 16px;
+    
+}
+
+
+.center-side-foote{
+    position: relative;
+    bottom: 103px;
+}
+
+.center-side-foote ul li{
+    list-style-type: none;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+
+.center-side-footer {
+    position: relative;
+    bottom: 280px;
+    right: 200px;
+}
+
+
+.center-side-footer ul li{
+    list-style-type: none;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+
+.footer-logo {
+    position: relative;
+    bottom: 450px;
+}

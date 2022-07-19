@@ -1,0 +1,230 @@
+@media(max-width:992px) {
+    .register {
+        width: 150px;
+        height: 3rem;
+    }
+
+    .register span {
+        font-size: 15px;
+    }
+
+    .navbar-brand img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .nav-item {
+        font-size: 15px !important;
+    }
+
+    .center-side-foote{
+        margin-top: 70px !important;
+    }
+
+    .footer-logo {
+        position: relative;
+        bottom: 580px;
+    }
+
+    .right-side-footer{
+        margin-bottom: 70px;
+    }
+
+    .footer{
+        width: 100%;
+        height: 120vh;
+    }
+
+
+}
+
+
+
+
+
+@media(max-width:768px) {
+    .left-side-pizza {
+        width: 540px;
+        height: 240px;
+
+    }
+
+}
+
+/* @media(max-width:767px) {
+    .left-side-pizza {
+        width: 450px;
+        height: 240px;
+        position: relative;
+        right: 14px;
+
+    }
+
+}
+
+ */
+
+
+
+
+
+
+@media(max-width:992px) {
+    .left-side-pizza {
+        width: 700px;
+        height: 400px;
+    }
+}
+
+@media(max-width:942px) {
+    .left-side-pizza {
+        width: 600px;
+        height: 400px;
+        position: relative;
+        top: 260px;
+    }
+}
+
+
+@media(max-width:772px) {
+    .left-side-pizza {
+        width: 600px;
+        height: 300px;
+        position: relative !important;
+        top: 262px !important;
+    }
+}
+
+
+
+
+@media(max-width:1200px) {
+    #item-food-cat {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #item-food-cat a img {
+        margin-top: 30px;
+    }
+
+    .snas-01 {
+        width: 5rem !important;
+        position: absolute;
+        left: 500px;
+    }
+
+
+
+}
+
+
+@media(max-width:1000px) {
+    .snas-01 {
+        width: 5rem !important;
+        position: absolute;
+        left: 200px;
+    }
+}
+
+@media(max-width:800px) {
+    .snas-01 {
+        width: 5rem !important;
+        position: absolute;
+        left: 160px;
+    }
+}
+
+@media(max-width:653px) {
+    .snas-01 {
+        width: 4rem !important;
+        height: auto;
+        position: absolute;
+        left: 90px;
+    }
+}
+
+/* ---------- */
+
+
+
+@media(max-width:768px){
+    .left-side-pizza{
+        width: 400px;
+        height: 300px;
+        position: relative;
+        right: 10px;
+    }
+}
+
+@media(max-width:991px){
+    .snas-01 P{
+        font-size: 15px;
+    }
+
+    .snas-01{
+        width: 4rem;
+        height: 4rem;
+        position: relative;
+        left: -70px;
+    }
+}
+
+@media(max-width:1330px){
+    .img-app-container{
+        margin-top: -90px;
+        height: 350px;
+        width: 400px;
+     
+    }
+}
+
+@media(max-width:1218px){
+    .img-bussines-own-container{
+        margin-right: 70px;
+        width: 400px;
+    }
+}
+
+@media(max-width:1200px){
+    .img-app-container img{
+        width:  370px !important;
+    }
+
+    .paragraph-app {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1123px){
+    .paragraph-app{
+        margin-left: 25px;
+    }
+}
+
+@media(max-width:1101px){
+    .img-app-container img{
+        display: none;
+    }
+
+    #img-google-play img{
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:768px){
+  
+
+    #img-google-play img{
+        margin-right: 60px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:1197px){
+    .img-bussines-own-container img{
+        display: none !important;
+    }
+}
